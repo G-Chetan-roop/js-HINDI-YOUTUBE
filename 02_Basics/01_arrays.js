@@ -36,10 +36,34 @@
 // console.log(myn2)
 
 // slice doesnt change the original array but splice does
-const A = new Array(0,1,2,3,4,5)
+// const A = new Array(0,1,2,3,4,5)
+// console.log(A)
+// const B = A.slice(1,3)
+// console.log(B)
+// const C = A.splice(1,3)
+// console.log(C)
+// console.log(A)
+
+
+// const ar = [1,2,3,4,5]
+// console.log(ar.length)
+
+// myArr 
+// const myArr =new Array(1,2,3,4,5)
+// myArr.unshift(9)
+
+// console.log(myArr)
+// myArr.shift()
+// console.log(myArr)
+
+//Array methods
+const myArr = new Array(0,1,2,3,4)
+A = myArr.slice(1,3)
 console.log(A)
-const B = A.slice(1,3)
+B = myArr
 console.log(B)
-const C = A.splice(1,3)
+C = myArr.splice(1,3)
 console.log(C)
-console.log(A)
+D = myArr
+console.log(D)
+
