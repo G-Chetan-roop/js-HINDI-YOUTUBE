@@ -1,5 +1,5 @@
 // singleton 
-// Object.create
+// Object.create -- > constructor method of creation singleton is created
 // object literals
 
 const mySym = Symbol("key1")
@@ -18,7 +18,7 @@ const JsUser = {
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
-// console.log(typeof JsUser[mySym])
+console.log(JsUser)
 
 // JsUser.email = "chetan@google.com"
 // Object.freeze(JsUser)
